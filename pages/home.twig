@@ -1,0 +1,10 @@
+{% extends 'layouts/default.twig' %}
+
+{% block content %}
+  <section class="hero">
+    {% include 'components/hero.twig' %}
+  </section>
+  <section class="products">
+    <salla-products limit="8"></salla-products>
+  </section>
+{% endblock %}
