@@ -8,7 +8,48 @@
     "email": "your-email@example.com",
     "url": "https://github.com/m1-real"
   },
-  "settings": [],
+  "settings": [
+    {
+      "id": "primary_color",
+      "type": "color",
+      "label": "Primary Color",
+      "default": "#000000"
+    },
+    {
+      "id": "background_color",
+      "type": "color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "id": "logo",
+      "type": "image",
+      "label": "Logo Image"
+    },
+    {
+      "id": "hero_banner",
+      "type": "image",
+      "label": "Hero Banner"
+    },
+    {
+      "id": "homepage_title",
+      "type": "text",
+      "label": "Homepage Title",
+      "default": "مرحبًا بك في متجرنا"
+    },
+    {
+      "id": "header_subtitle",
+      "type": "text",
+      "label": "Header Subtitle",
+      "default": "أفضل المنتجات بين يديك"
+    },
+    {
+      "id": "show_featured",
+      "type": "toggle",
+      "label": "Show Featured Section",
+      "default": true
+    }
+  ],
   "screenshots": [
     "assets/images/screenshot_1.png",
     "assets/images/screenshot_2.png",
