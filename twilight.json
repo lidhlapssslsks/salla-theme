@@ -40,13 +40,13 @@
       "id": "homepage_title",
       "type": "text",
       "label": "Homepage Title",
-      "default": "مرحبًا بك في متجرنا"
+      "default": "Welcome to Our Store"
     },
     {
       "id": "header_subtitle",
       "type": "text",
       "label": "Header Subtitle",
-      "default": "أفضل المنتجات بين يديك"
+      "default": "Discover our latest products"
     },
     {
       "id": "show_featured",
@@ -100,3 +100,4 @@
     }
   ]
 }
+
