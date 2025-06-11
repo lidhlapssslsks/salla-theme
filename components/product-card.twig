@@ -1,5 +1,7 @@
 <div class="product-card">
-  <img src="{{ product.image }}" alt="{{ product.name }}">
-  <h3>{{ product.name }}</h3>
-  <p>{{ product.price }}</p>
+  <a href="{{ product.url }}">
+    <img src="{{ product.images[0] }}" alt="{{ product.name }}">
+    <h3>{{ product.name }}</h3>
+    <p class="price">{{ product.price|format_price }}</p>
+  </a>
 </div>

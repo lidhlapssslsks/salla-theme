@@ -1,10 +1,15 @@
-{% extends 'layouts/default.twig' %}
+{% extends "layouts/default.twig" %}
 
 {% block content %}
   <section class="hero">
-    {% include 'components/hero.twig' %}
+    {% if theme.settings.hero_banner %}
+      <img src="{{ theme.settings.hero_banner }}" alt="Hero banner">
+    {% endif %}
   </section>
-  <section class="products">
-    <salla-products limit="8"></salla-products>
+
+  <section class="product-grid container">
+    {% for product in products %}
+      {% include 'components/product-card.twig' %}
+    {% endfor %}
   </section>
 {% endblock %}
