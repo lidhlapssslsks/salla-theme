@@ -1,0 +1,24 @@
+{
+  "name": "salla-theme",
+  "version": "1.0.0",
+  "description": "A modern, minimalistic, and elegant theme built using Salla's Twilight engine.   Designed to offer clean UX across all stages of shopping: from product discovery to checkout and tracking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1-real/salla-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/m1-real/salla-theme/issues"
+  },
+  "homepage": "https://github.com/m1-real/salla-theme#readme",
+  "dependencies": {
+    "@salla.sa/cli": "^3.2.4"
+  }
+}
