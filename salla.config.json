@@ -1,14 +1,14 @@
 {
     "theme": {
         "name": "Custom Twilight Theme",
-        "repository": "https://github.com/your-username/salla-theme",
+        "repository": "https://github.com/lidhlapssslsks/salla-theme",
         "branch": "main",
         "build_command": "npm run build",
         "preview_command": "salla theme preview",
         "publish_command": "salla theme publish"
     },
     "author": {
-        "name": "Mohammed",
-        "email": "your-email@example.com"
+        "name": "khalid",
+        "email": "khalidalabdaly16@gmail.com"
     }
 }
